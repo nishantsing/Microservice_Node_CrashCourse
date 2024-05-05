@@ -1,5 +1,6 @@
 # Microservices
 
+- [Microservices crash course by Brad Traversy](https://youtu.be/fEDT4lWWe9g)
 ## Monolithic (Small applications)
 - Build and deployed as single unit.
 - Easy to deploy, test and deploy.
@@ -46,4 +47,24 @@ realtime communication(node)
 ```js
 npm init -y
 npm i moleculer
+
+"type":"module" // add in package.json if you want to use es6 imports 
+
+index.js(file)
+
+import { ServiceBroker } from "moleculer";
+const broker = new ServiceBroker();
+
+broker.createService({
+    name:""
+    action:{
+        functions(ctx) ... ctx.params.params_var
+    }
+})
+
+broker.start()
+broker.call("serviceName.action", {params_var})
+broker.stop()
+
 ```
+
