@@ -1,0 +1,15 @@
+{
+  "name": "microservice_node",
+  "version": "1.0.0",
+  "description": "- Build and deployed as single unit.\r - Easy to deploy, test and deploy.\r - Cheaper and simple architecture.\r - Design Patterns(MVC, client server, Layer pattern)\r - Frontend and Backend Deployed together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moleculer": "^0.14.33"
+  }
+}
