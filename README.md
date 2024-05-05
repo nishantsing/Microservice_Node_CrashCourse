@@ -41,5 +41,9 @@ realtime communication(node)
 - Service Discovery
 
 
-
 ## Implementation
+
+```js
+npm init -y
+npm i moleculer
+```
